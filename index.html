@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+    <div id="calc">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="limpar()" class="operadores">C</button>
+            <button onclick="aparecerNoDisplay('1')">1</button>
+            <button onclick="aparecerNoDisplay('2')">2</button>
+            <button onclick="aparecerNoDisplay('/')" class="operadores">÷</button>
+            <button onclick="aparecerNoDisplay('3')">3</button>
+            <button onclick="aparecerNoDisplay('4')">4</button>
+            <button onclick="aparecerNoDisplay('5')">5</button>
+            <button onclick="aparecerNoDisplay('*')" class="operadores">x</button>
+            <button onclick="aparecerNoDisplay('6')">6</button>
+            <button onclick="aparecerNoDisplay('7')">7</button>
+            <button onclick="aparecerNoDisplay('8')">8</button>
+            <button onclick="aparecerNoDisplay('-')" class="operadores">-</button>
+            <button onclick="aparecerNoDisplay('9')">9</button>
+            <button onclick="aparecerNoDisplay('0')">0</button>
+            <button onclick="aparecerNoDisplay('.')">,</button>
+            <button onclick="aparecerNoDisplay('+')" class="operadores">+</button>
+            <button onclick="calcular()" class="operadores">=</button>
+        </div>
+
+
+    </div>
+    <script src='main.js'></script>
+
+</body>
+
+</html>
